@@ -15,34 +15,33 @@ function App() {
   return (
     <main>
       <h1>Create React App + Go API</h1>
+      <h2>Web 22 rocks!</h2>
       <h2>
         Deployed with{' '}
         <a
-          href="https://zeit.co/docs"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
+          href='https://zeit.co/docs'
+          target='_blank'
+          rel='noreferrer noopener'>
           ZEIT Now
         </a>
         !
       </h2>
       <p>
         <a
-          href="https://github.com/zeit/now-examples/tree/master/create-react-app-functions"
-          target="_blank"
-          rel="noreferrer noopener"
-        >
+          href='https://github.com/zeit/now-examples/tree/master/create-react-app-functions'
+          target='_blank'
+          rel='noreferrer noopener'>
           This project
         </a>{' '}
         was bootstrapped with{' '}
-        <a href="https://facebook.github.io/create-react-app/">
+        <a href='https://facebook.github.io/create-react-app/'>
           Create React App
         </a>{' '}
         and contains three directories, <code>/public</code> for static assets,{' '}
         <code>/src</code> for components and content, and <code>/api</code>{' '}
-        which contains a serverless <a href="https://golang.org/">Go</a>{' '}
+        which contains a serverless <a href='https://golang.org/'>Go</a>{' '}
         function. See{' '}
-        <a href="/api/date">
+        <a href='/api/date'>
           <code>api/date</code> for the Date API with Go
         </a>
         .
